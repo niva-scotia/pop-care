@@ -1,10 +1,6 @@
 import os
-import pinecone
-import bs4
-from dotenv import load_dotenv
 
-load_dotenv("key.env")
-openai_api_key = "OpenAI_API_KEY"  # insert your Open AI API key here, this required for the chatbot to work
+openai_api_key =  st.secrets["OPENAI_API_KEY"]  # insert your Open AI API key here, this required for the chatbot to work
 
 
 # Streamlit
