@@ -2,7 +2,7 @@ from ast import Pass
 from queue import Empty
 import streamlit as st
 
-st.write("HEyyyyyy")
+st.write("Welcome to the Meal Tracker! Here, you can input your meal and receive the relevant nutrition data.")
 
 class Today:
     def __init__(self):
