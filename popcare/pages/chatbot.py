@@ -1,6 +1,6 @@
 import os
 
-<<<<<<< HEAD
+
 openai_api_key =  st.secrets["OPENAI_API_KEY"]  # insert your Open AI API key here, this required for the chatbot to work
 =======
 load_dotenv("key.env")
